@@ -1,0 +1,135 @@
+body {
+    display: flex;
+    justify-content: center;
+  
+    height: 600px;
+
+}
+.montainer{
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 800px;
+ 
+
+    background-color: #f5f4ef; 
+    color: #fff;
+}
+.image-container{
+    width: 400px;
+    height: 500px;
+     display:flex;
+     float: left;
+  }
+  .image-container img{
+    width: 400px;
+  }
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    background-color:#2c2001; 
+    font-size: 18px;
+    align-items: center;
+    float: right;
+    justify-content:center;
+
+
+}
+.wagni{
+    width: 300px;
+    margin-right: 20px;
+
+}
+    input,
+select {
+    display: block;
+    width: 300px;
+    border: none;
+    border-bottom: 2px solid;
+    padding: 3px;
+    height: 45px;
+    margin-top: 10px;
+    background-color:#2c2001; 
+    color: #fff;
+   
+}
+
+.submit {
+    display: block;
+    margin-top: 40px;
+    background-color: #a48f45;
+    border: none;
+    padding: 10px;
+    color: #fff;
+   
+}
+
+
+
+
+
+
+.bit  {
+   
+   height:25px;
+   width: 28px;
+  border-radius:70%;
+   border:none;
+   text-align:center;
+   font-weight:bold;
+   font-size: 15px;
+   
+}
+
+.quatre {
+   
+   height:25px;
+width:25px;
+  border-radius:70%;
+   border:none;
+   text-align:center;
+   font-weight:bold;
+margin-left:5px;
+
+      justify-content:center;
+  align-items: center;
+  font-size: 15px;
+}
+
+
+span {
+height:70px;
+background:#a48f45;
+border-radius:14px;
+  color:#000;
+font-weight:bold;
+ padding-bottom:7px;
+ padding-top:4px;
+ margin-right:5px;
+font-size:18px;
+
+
+
+}
+
+.dernier button{
+ margin-top:40px;
+  background-color:#a48f45;
+  border:none;
+  padding:10px;
+  color:#fff;
+ 
+  
+}
+p{
+  font-size:14px;
+ 
+}
+.lienm{
+  text-decoration:none;
+  font-size:10px;
+  color: #a48f45
+}
